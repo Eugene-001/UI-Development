@@ -9,6 +9,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 100 – 900;
   font-style: normal;
+  background-color: #111111;
 }
 
 .side-bar {
@@ -58,4 +59,253 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  margin-top: 32px;
+}
+
+.left-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111111;
+  margin-bottom: 4px;
+}
+
+.left-body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #111;
+}
+
+.right-for-CTA {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  padding: 16px 12px;
+  border-radius: 12px;
+  border: none;
+  background-color: #b20dff;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.search {
+  border: 1px solid #b20dff;
+  border-radius: px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+
+.appointments {
+  /* width: 25%; */
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+  padding: 24px;
+  height: 434px;
+}
+
+.appointments-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 24px;
+}
+
+.avatar-and-name {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111111;
+}
+
+.date-and-time {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.date-tag {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 4px;
+}
+
+.date-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111111;
+}
+
+.time-tag {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 4px;
+}
+
+.time-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111111;
+}
+
+.venue-tag {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 4px;
+}
+
+.venue-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111111;
+}
+
+.Recent-activities {
+  /* width: 65%; */
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  margin-left: 5%;
+  /* margin-right: 5%; */
+  padding: 24px;
+}
+
+.middle-dashboard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 216px;
+}
+
+.middle-right {
+  width: 70%;
+}
+
+.middle-left {
+  width: 30%;
+}
+
+.recent-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 24px;
+}
+
+.activity-cards {
+  padding: 24px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activity-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-name-date {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.name-block {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #111;
+}
+
+.block-of-activity {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.group-date-time-venue {
+  background-color: #fafafa;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
+
+.last-dashboard {
+  width: 90%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 240px;
+  padding: 24px;
+}
+
+.test-result-header {
+  font: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+}
+
+.result1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  background-color: #fafafa;
+}
+
+.icon-and-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.name1 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
